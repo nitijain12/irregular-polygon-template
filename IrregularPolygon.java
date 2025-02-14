@@ -10,14 +10,13 @@ public class IrregularPolygon
     {
         myPolygon.add(point);
     }
-    //creating poly
     public IrregularPolygon() 
     {
         myPolygon = new ArrayList<>();
     }
 
   
-
+// make the perimeter 
     public double perimeter() 
     {
         if (myPolygon.size() < 2) return 0.0;
@@ -28,7 +27,7 @@ public class IrregularPolygon
         }
         return perimeter;
     }
-
+//area
 public double area() 
 {
     if (myPolygon.size() < 3) return 0.0;
