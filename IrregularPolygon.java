@@ -1,6 +1,5 @@
 import java.awt.geom.*; 
 import java.util.ArrayList;
-
 import gpdraw.*;
 
 public class IrregularPolygon 
@@ -11,7 +10,7 @@ public class IrregularPolygon
     {
         myPolygon.add(point);
     }
-    
+    //creating poly
     public IrregularPolygon() 
     {
         myPolygon = new ArrayList<>();
@@ -45,7 +44,7 @@ public double area()
 }
 
 public void draw()
-{
+{ 
     DrawingTool pen = new DrawingTool(new SketchPad(500, 500));
     pen.up();
     if (!myPolygon.isEmpty())
