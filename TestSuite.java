@@ -1,5 +1,5 @@
 import java.awt.geom.*; // for Point2D.Double
-import java.util.Arrays;
+// import java.util.Arrays; 
 
 public class TestSuite {
     // Run a bunch of basic tests on IrregularPolygon
