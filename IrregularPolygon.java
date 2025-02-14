@@ -41,7 +41,7 @@ public double area()
     }
     return Math.abs(sum) / 2.0;
 }
-
+//draw method
 public void draw()
 { 
     DrawingTool pen = new DrawingTool(new SketchPad(500, 500));
